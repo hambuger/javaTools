@@ -1,4 +1,4 @@
-package com.hanbuger.javatools;
+package com.hanbuger.nettools;
 
 import java.io.IOException;
 
