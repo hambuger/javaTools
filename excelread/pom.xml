@@ -1,0 +1,44 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>com.hanbuger</groupId>
+	<artifactId>excelread</artifactId>
+	<version>0.0.1</version>
+	<packaging>jar</packaging>
+
+	<name>excelread</name>
+	<url>http://maven.apache.org</url>
+
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<easyexcel.Version>1.1.2-beta4</easyexcel.Version>
+		<mybatis.Version>3.2.3</mybatis.Version>
+		<commons-lang3.Version>3.8</commons-lang3.Version>
+	</properties>
+
+	<dependencies>
+
+<!-- 		阿里巴巴Excel读取工具easyexcel -->
+		<dependency>
+			<groupId>com.alibaba</groupId>
+			<artifactId>easyexcel</artifactId>
+			<version>${easyexcel.Version}</version>
+		</dependency>
+
+<!-- 		mybatis框架基本jar包 -->
+		<dependency>
+			<groupId>org.mybatis</groupId>
+			<artifactId>mybatis</artifactId>
+			<version>${mybatis.Version}</version>
+		</dependency>
+
+<!-- 		用来打印POJO属性工具 -->
+		<dependency>
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-lang3</artifactId>
+			<version>${commons-lang3.Version}</version>
+		</dependency>
+
+	</dependencies>
+</project>

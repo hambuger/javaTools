@@ -14,6 +14,7 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<easyexcel.Version>1.1.2-beta4</easyexcel.Version>
 		<commons-lang3.Version>3.8</commons-lang3.Version>
+        <jackson.version>2.6.4</jackson.version>
 	</properties>
 
 	<dependencies>
@@ -30,5 +31,32 @@
 			<artifactId>commons-lang3</artifactId>
 			<version>${commons-lang3.Version}</version>
 		</dependency>
+		
+        <!-- jackson -->
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-core</artifactId>
+            <version>${jackson.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-annotations</artifactId>
+            <version>${jackson.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-databind</artifactId>
+            <version>${jackson.version}</version>
+        </dependency>
+        
+        <dependency>
+            <groupId>org.apache.httpcomponents</groupId>
+            <artifactId>httpclient</artifactId>
+            <version>4.5.2</version>
+        </dependency>
+        
 	</dependencies>
+	
+
+	
 </project>
